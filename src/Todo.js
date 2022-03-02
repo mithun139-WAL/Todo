@@ -63,7 +63,7 @@ export default function Todo() {
                 <option>Completed</option>
                 <option>Incomplete</option>
             </select>
-            <div className="todoFormButtons">
+            <div className="mx-auto">
                 <button
                     className="btn btn-info m-3 col-2"
                     onClick={() => {
