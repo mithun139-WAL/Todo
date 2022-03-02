@@ -43,7 +43,7 @@ export default function Todo() {
 
     return (
         <div>
-            <h2 className="text-muted my-3">Todo Application</h2><hr className="col-6 border border-primary"/>
+            <h2 className="text-muted my-3 text-center">Todo Application</h2><hr className="col-6 border border-primary"/>
             <input
                 type="text"
                 className="form-control col-lg-4 col-md-8 my-5 mx-auto"
