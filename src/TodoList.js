@@ -9,7 +9,7 @@ export default function TodoList() {
             {
                 reducerValue.state.todos.length == 0 ? 
                 (
-                    <h1 className="title">Nothing To do!</h1>
+                    <h1 className="text-center">Nothing To do!</h1>
                 ) : 
                 (
                     reducerValue.state.todos.map((todo) => {
